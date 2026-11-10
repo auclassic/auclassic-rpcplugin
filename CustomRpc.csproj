@@ -15,9 +15,6 @@
     <Reference Include="Il2Cppmscorlib"><HintPath>$(GameDir)\BepInEx\unhollowed\Il2Cppmscorlib.dll</HintPath></Reference>
     <Reference Include="UnhollowerBaseLib"><HintPath>$(GameDir)\BepInEx\core\UnhollowerBaseLib.dll</HintPath></Reference>
     <Reference Include="Assembly-CSharp-firstpass"><HintPath>$(GameDir)\BepInEx\unhollowed\Assembly-CSharp-firstpass.dll</HintPath></Reference>
-    <Reference Include="Assembly-CSharp">
-      <HintPath>C:\Users\Subagent\Downloads\Assembly-CSharp-2020.12.9s.dll</HintPath>
-  <Private>False</Private>
 </Reference>
   </ItemGroup>
 </Project>
