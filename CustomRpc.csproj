@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <LangVersion>latest</LangVersion>
-    <GameDir>C:\Users\Subagent\Desktop\AUC</GameDir>
+    <GameDir></GameDir>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BepInEx.Core"><HintPath>$(GameDir)\BepInEx\core\BepInEx.Core.dll</HintPath></Reference>
