@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <GameDir>C:\Users\Subagent\Desktop\AUC</GameDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BepInEx.Core"><HintPath>$(GameDir)\BepInEx\core\BepInEx.Core.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(GameDir)\BepInEx\unhollowed\UnityEngine.CoreModule.dll</HintPath>
+    <Private>False</Private>
+  </Reference>
+    <Reference Include="BepInEx.IL2CPP"><HintPath>$(GameDir)\BepInEx\core\BepInEx.IL2CPP.dll</HintPath></Reference>
+    <Reference Include="0Harmony"><HintPath>$(GameDir)\BepInEx\core\0Harmony.dll</HintPath></Reference>
+    <Reference Include="Il2Cppmscorlib"><HintPath>$(GameDir)\BepInEx\unhollowed\Il2Cppmscorlib.dll</HintPath></Reference>
+    <Reference Include="UnhollowerBaseLib"><HintPath>$(GameDir)\BepInEx\core\UnhollowerBaseLib.dll</HintPath></Reference>
+    <Reference Include="Assembly-CSharp-firstpass"><HintPath>$(GameDir)\BepInEx\unhollowed\Assembly-CSharp-firstpass.dll</HintPath></Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>C:\Users\Subagent\Downloads\Assembly-CSharp-2020.12.9s.dll</HintPath>
+  <Private>False</Private>
+</Reference>
+  </ItemGroup>
+</Project>
